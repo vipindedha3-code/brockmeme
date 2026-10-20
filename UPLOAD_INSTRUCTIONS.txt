@@ -1,0 +1,14 @@
+ARC SIGNAL v4.2 - GitHub / Render upload package
+
+1. Extract THIS ZIP on your phone or computer.
+2. In GitHub repo vipindedha3-code/brockmeme, branch main, upload BOTH files at repository root:
+   - build_arc_apk.py
+   - ARC_SIGNAL_GITHUB_RENDER_v4_2.zip (replace existing file if prompted)
+3. Commit changes.
+4. Open Render service https://dashboard.render.com/web/srv-dbbp3fvavr4c73dph390
+5. Manual Deploy > Deploy latest commit.
+6. Existing build command: python3 -m zipfile -e ARC_SIGNAL_GITHUB_RENDER_v4_2.zip . && python3 build_arc_apk.py
+7. Once Render shows Live, check https://arc-signal-v42-apk.onrender.com/ARC_SIGNAL_V4_2.apk
+
+Do not upload only this outer ZIP to GitHub: the existing Render service requires the two named files separately at repository root.
+The APK has not yet been built or verified.
